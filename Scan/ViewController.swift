@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var content: UILabel!
     
     @IBAction func btnScan1(_ sender: Any) {
+        //测试提交
         let scan = ScanController()
         //将传过来的值  赋给label
         scan.sendScans = { (strings : String, type : String) -> Void in
